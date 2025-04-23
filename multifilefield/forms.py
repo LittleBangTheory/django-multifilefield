@@ -39,7 +39,7 @@ class MultiFileInput(Input):
         return files.get(name, None)
 
     def _has_changed(self, initial, data):
-        print (data)
+        print(data)
         if data is None:
             return False
         return True
